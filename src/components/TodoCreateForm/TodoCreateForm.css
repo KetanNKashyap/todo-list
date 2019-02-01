@@ -1,0 +1,4 @@
+.createItem { width: 100%; position: fixed; bottom: 0; left: 0; background:#056885; padding:26px 5%; }
+.createItem input { width: 80%; height: 48px; border: 0; border-radius: 4px; font-family: 'Metrophobic', sans-serif; font-size: 18px; padding: 0 10px; }
+.createItem button { margin-left: 10px; background: #F6B637; color: #fff; transition: all ease 0.3s; font-family: 'Metrophobic', sans-serif; font-size: 18px; border: 0; border-radius: 4px; height: 48px; width: 10%; outline: none; cursor: pointer; }
+.createItem button:hover, .createItem button:focus { background: #F3CE83; color: #000000; transition: all ease 0.3s; }

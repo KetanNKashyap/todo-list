@@ -1,0 +1,9 @@
+/* .listWrapper { width: 95%; margin: 10px auto 100px; overflow: auto; max-height: 500px; } */
+.listWrapper { position:fixed; top:250px; bottom:110px; width: 95%; overflow-y:auto; }
+.listWrapper ul { width: 95%; list-style: none; padding: 0; display: table; margin: 0 auto; }
+.listWrapper ul li { position: relative; background: #FDFCFA; border: #E1E1E1 1px solid; font-size: 16px; line-height: 20px; padding: 10px 10px; border-radius: 4px; margin-bottom:24px; display: table; width: 100%; min-height: 28px; }
+.listWrapper ul li button { float:right; margin-left: 10px; }
+.listWrapper ul li p { margin: 0 90px 0 0; }
+.listWrapper ul li .buttons { position: absolute; right: 10px; top: 50%; transform: translate(0%, -50%); }
+.listWrapper ul li button.create { background: #F6B637; border: none; color: #ffffff; height: 36px; width: 36px; border-radius: 50%; line-height:36px; font-size: 18px; cursor: pointer; }
+.listWrapper ul li button.delete { background: #056885; border: none; color: #ffffff; height: 36px; width: 36px; border-radius: 50%; line-height:36px; font-size: 20px; cursor: pointer; }
